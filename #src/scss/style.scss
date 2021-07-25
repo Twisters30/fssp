@@ -890,9 +890,9 @@ footer {
 		.tab__content {
 			display: block;
 			position: relative;
-			max-height: 93px;
+			max-height: 84px;
 			padding: 0px 0px 30px;
-   			overflow-y: hidden;
+   			overflow: hidden;
 			transition:  all 300ms;
 			box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
 			border-radius: 4px;
@@ -924,7 +924,7 @@ footer {
 		 
 		
 		.tab__content.tab-mobile-open > span {
-			transform: translateX(-203px);
+			transform: translateX(-250px);
 			width: 860px;
 		}
 
@@ -1128,6 +1128,7 @@ footer {
 
 		.tab__signature {
 			margin-top: 0;
+			padding-top: 25px;
 		}
 
 		.tab__btn-check {
